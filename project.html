@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title>STATS/DATASCI 112: Principles of Data Science</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <div class="container">
+
+    <div class="header">
+      <h1>STATS/DATASCI 112: Principles of Data Science</h1>
+      <p class="lead"><a href="http://www.calpoly.edu/~dsun09">Dennis Sun</a>, Stanford University, Winter 2023</p>
+    </div>
+
+    <hr>
+
+    <div class="row">
+      <div class="col-md-2 col-sm-2">
+	<ul class="nav nav-pills nav-stacked">
+	  <li class="active"><a href="index.html">Home</a></li>
+	  <li><a href="lectures.html">Lectures</a></li>
+	  <li><a href="project.html">Project</a></li>
+	  <li><a href="http://colab.research.google.com" target="_blank">Colab</a></li>
+	</ul>
+      </div>
+
+      <div class="col-md-10 col-sm-10">
+	
+
+<h2>Final Project</h2>
+
+	<p>In the final project for this course, you will apply the
+	  techniques learned in this class to analyze a
+	  data set of personal interest to you. Your goal should be to
+	  create an original project that you would be proud to
+	  show off to a potential employer. You are encouraged to
+	  upload your project to Github after the course is over.
+	</p>
+
+	  
+	<h3>Requirements</h3>
+
+	<p>The outline below is only a suggestion. If you have a
+	  completely different idea for a data science project
+	  that does not fit neatly with the following requirements,
+	  please come talk to me.</p>
+	
+	<ul>
+	  <li>The data that you analyze should be complex to
+	    collect or to clean in some way.</li>
+	  <li>You should create informative visualizations to
+	    explain the data and your findings.</li>
+	  <li>You should use machine learning to build a model to
+	    predict some outcome variable in your data set.</li>
+	</ul>
+
+	<p>You are expected to work on this project in pairs, although
+	you can work individually if you prefer. Please note that if
+	  you work alone, you are still expected to produce the
+	same amount of work as a two-person team.</p>
+
+	
+	<h3>Deliverables</h3>
+
+	<ul>
+	  <li>Create a directory containing the following notebooks:
+	    <ul>
+	      <li>Data Collection and Cleaning: This notebook should
+		contain all code that you
+		wrote to collect and clean the data.</li>
+	      <li>Data Exploration: This notebook should contain all
+		code that you wrote as you were exploring the data.
+		It should contain results and visualizations.</li>
+	      <li>Machine Learning: This notebook should contain the
+		code that you wrote to determine what model to fit and
+		to analyze the performance of the model you ultimately
+		chose.</li>
+	      <li>Presentation: This is a notebook containing just
+		the highlights from your analyses above. It should not
+		contain much code, unless the code is important for
+		understanding the analysis. You will be presenting
+		from this notebook during the in-class presentation
+		session. (Note: If you prefer to present from slides,
+		you may submit the slides instead of a
+		notebook.)</li>
+	    </ul>
+	  </li>
+	  <li>Submit this directory in
+	    one of two ways:
+	    <ul>
+	      <li>Upload the project to Github. (Make sure the
+		repository is public.) Provide the link to this Github
+		repository on Canvas</a>.
+	      </li>
+	      <li>Create a .zip file out of the directory. Upload this
+	      .zip file to Canvas.
+	      </li>
+	    </ul>
+	    In general, I will <i>not</i> be re-running your notebooks
+	    unless I am confused about something, so it is not
+	    necessary to include data files in you submission.
+	    However, if the data files are small and it is convenient
+	    to include them, please do so.
+	  </li>
+	  <li>A 5-7 minute in-class presentation about your findings.
+	    There will be two presentation sessions during finals week.
+	</ul>
+
+	
+	<h3>Grading Rubric</h3>
+
+	<p>You will be graded on a 0-4 scale in each of the categories
+	  below. A 0 means that the component is missing from the
+	  project altogether, while the meanings of scores of 1-4 
+	  are summarized below. In general, you get a 3 for meeting
+	  expectations and doing solid work; to earn a 4, you have
+	  to go above and beyond in some way.</p>
+	
+	<table class="table">
+	  <thead>
+	    <th>Category</th>
+	    <th>1</th>
+	    <th>2</th>
+	    <th>3</th>
+	    <th>4</th>
+	  </thead>
+	  <tbody>
+	    <tr>
+	      <td>Research Question and Motivation</td>
+	      <td>Research question is unclear.</td>
+	      <td>Research question is reasonable, but perhaps
+		lacking in focus and motivation.</td>
+	      <td>Research question is focused and well-motivated.</td>
+	      <td>Research question is exceptionally creative and/or
+	      clever, in addition to being focused and well-motivated.</td>
+	    </tr>
+	    <tr>
+	      <td>Data Collection and Cleaning</td>
+	      <td>Data is simple and already clean.</td>
+	      <td>Data is straightforward (e.g., a CSV file), but
+		still nontrivial (e.g., quite large).</td>
+	      <td>Data is complex to collect (e.g., from a REST API)
+		and/or to clean (e.g., in JSON format).</td>
+	      <td>Data collection and cleaning is unusually complex.</td>
+	    </tr>
+	    <tr>
+	      <td>Data Visualization</td>
+	      <td>Limited attempts to visualize the data.</td>
+	      <td>Visualizations are straightforward and provide
+		some insight into the data.</td>
+	      <td>Visualizations are informative, insightful, and
+	      visually appealing.</td>
+	      <td>Outstanding visualizations that are unusually
+		artistic, insightful, and/or challenging to
+		produce.</td>
+	    </tr>
+	    <tr>
+	      <td>Machine Learning</td>
+	      <td>Missing either a comparison of different models or
+		an analysis of the performance of the model.</td>
+	      <td>Some comparison of different models and some
+		analysis of the performance of the model.</td>
+	      <td>Solid comparison of several models and thorough
+		analysis of the performance of the final model.</td>
+	      <td>Creative and/or sophisticated application of
+		machine learning, in addition to solid analysis.</td>
+	    </tr>
+	    <tr>
+	      <td>Correctness of Results</td>
+	      <td>Many flaws in the analysis; results are unreliable.</td>
+	      <td>Results are generally correct, with one major flaw or
+	      many minor flaws.</td>
+	      <td>Results are correct with no flaws (or only trivial flaws).</td>
+	      <td>Results are not only correct, but the analyses were
+		also technically challenging.
+	      </td>
+	    </tr>
+	    <tr>
+	      <td>Submission Organization</td>
+	      <td>Submission did not match requirements stated in the
+	      "Deliverables" section.</td>
+	      <td>Submission met the requirements but was difficult
+	      to follow and understand.</td>
+	      <td>Submission was well-organized and easy to follow.</td>
+	      <td>Submission exceeded all expectations in terms of documentation
+	      and was exceptionally organized.</td>
+	    </tr>
+	    <tr>
+	      <td>Presentation</td>
+	      <td>Presentation failed to communicate the results adequately.</td>
+	      <td>Presentation was acceptable, but not
+	      engaging or difficult to follow.</td>
+	      <td>Solid presentation that was engaging and easy to
+		understand.</td>
+	      <td>Exceptional presentation that captivated the audience.</td>
+	    </tr>
+	    <tr>
+	      <td>Participation (Presentation Session)</td>
+	      <td>Attended presentation session, but failed to
+	      complete the peer feedback.</td>
+	      <td>Completed peer feedback, but perfunctorily.</td>
+	      <td>Provided solid peer feedback for at least two-thirds of presentations.</td>
+	      <td>Provided unusually detailed peer feedback for at
+		least two-thirds of presentations and/or
+		participated actively throughout the presentation
+		session.</td>
+	    </tr>
+	  </tbody>
+	</table>
+
+
+	<h3>Where to Find Datasets</h3>
+
+	<p>The best data set is one that you are passionate about. I
+	  recommend that you start by finding a question you want to
+	  answer and then finding data to answer that question, rather
+	  than starting with a data set. That said, here are some
+	  helpful websites with large collections of data.</p>
+	
+	<ul>
+	  <li><a href="https://toolbox.google.com/datasetsearch">Google
+	  Data Set Search</a></li>
+	  <li><a href="https://www.reddit.com/r/datasets/">Reddit
+	      Datasets</a></li>
+	  <li><a href="https://www.data.gov/">U.S. Government's Open
+	      Data</a></li>
+	  <li><a href="https://www.kaggle.com/datasets">Kaggle
+	      Datasets</a></li>
+	  <li><a href="https://github.com/toddmotto/public-apis">List
+	  of JSON APIs</a></li>
+	</ul>
+
+
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="footer">
+      <p style="text-align: center; color: #777;">Copyright &copy; 2022 Dennis Sun.</p>
+    </div>
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="./js/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="./js/bootstrap.min.js"></script>
+    <script type="text/javascript" async
+	    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+  
+  </body>
+</html>
