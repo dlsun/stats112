@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title>DATASCI 112: Principles of Data Science</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <div class="container">
+
+    <div class="header">
+      <h1>DATASCI 112: Principles of Data Science</h1>
+      <p class="lead"><a href="http://dlsun.github.io/stats112">Dennis Sun</a>, Stanford, Winter 2023</p>
+    </div>
+
+    <hr>
+
+    <div class="row">
+      <div class="col-md-2 col-sm-2">
+	<ul class="nav nav-pills nav-stacked">
+	  <li><a href="index.html">Home</a></li>
+	  <li class="active"><a href="lectures.html">Lectures</a></li>
+	  <li><a href="project.html">Project</a></li>
+	  <li><a href="http://colab.research.google.com" target="_blank">Colab</a></li>
+	</ul>
+      </div>
+
+      <div class="col-md-10 col-sm-10">
+	
+<table class="table">
+  <tr class="warning table-warning">
+    <td>The days highlighted in yellow are lecture days.</td>
+  </tr>
+  <tr class="info table-info">
+    <td>The days highlighted in blue are section days.</td>
+  </tr>
+</table>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th width="10%"></th>
+      <th width="18%" class="warning table-warning">Monday</th>
+      <th width="18%" class="info table-info">Tuesday</th>
+      <th width="18%" class="warning table-warning">Wednesday</th>
+      <th width="18%" class="info table-info">Thursday</th>
+      <th width="18%" class="warning table-warning">Friday</th>
+  </tr></thead>
+  <tbody>
+    
+    
+    
+    <tr>
+      <td>Date</td>
+      
+      <td>01/09</td>
+      
+      <td>01/10</td>
+      
+      <td>01/11</td>
+      
+      <td>01/12</td>
+      
+      <td>01/13</td>
+      
+    </tr>
+    
+    <tr>
+      <td width="10%">Class Materials</tD>
+      
+      <td>Course Overview</td>
+      
+      <td>Introduction to Colab</td>
+      
+      <td><ul style='padding-left:0;'><li>Introduction to Pandas</li><li>Analyzing Categorical Variables</li></ul></td>
+      
+      <td></td>
+      
+      <td><ul style='padding-left:0;'><li>Relationships between Categorical Variables and Cross-Tabs</li><li>Lab 1 Assigned</li></ul></td>
+      
+    </tr>
+        
+    <tr>
+      <td></td>
+      
+      <td></td>
+      
+      <td></td>
+      
+      <td></td>
+      
+      <td></td>
+      
+      <td></td>
+      
+    </tr>
+    
+    
+    
+    <tr>
+      <td>Date</td>
+      
+      <td>01/16</td>
+      
+      <td>01/17</td>
+      
+      <td>01/18</td>
+      
+      <td>01/19</td>
+      
+      <td>01/20</td>
+      
+    </tr>
+    
+    <tr>
+      <td width="10%">Class Materials</tD>
+      
+      <td class="danger">No Class - MLK Day</td>
+      
+      <td>Simpson's Paradox</td>
+      
+      <td><ul style='padding-left:0;'><li>Analyzing Quantitative Variables</li><li>Relationships between Quantitative Variables</li></ul></td>
+      
+      <td></td>
+      
+      <td><ul style='padding-left:0;'><li>The Split-Apply-Combine Paradigm</li><li>Lab 2 Assigned</li></ul></td>
+      
+    </tr>
+        
+    <tr>
+      <td></td>
+      
+      <td></td>
+      
+      <td></td>
+      
+      <td></td>
+      
+      <td></td>
+      
+      <td></td>
+      
+    </tr>
+    
+    
+    
+    <tr>
+      <td>Date</td>
+      
+      <td>01/23</td>
+      
+      <td>01/24</td>
+      
+      <td>01/25</td>
+      
+      <td>01/26</td>
+      
+      <td>01/27</td>
+      
+    </tr>
+    
+    <tr>
+      <td width="10%">Class Materials</tD>
+      
+      <td><ul style='padding-left:0;'><li>Distances between Observations</li><li>Converting Categorical Variables to Quantitative</li></ul></td>
+      
+      <td></td>
+      
+      <td>JSON Data Format</td>
+      
+      <td></td>
+      
+      <td>Exam 1</td>
+      
+    </tr>
+        
+    <tr>
+      <td></td>
+      
+      <td></td>
+      
+      <td></td>
+      
+      <td></td>
+      
+      <td></td>
+      
+      <td></td>
+      
+    </tr>
+    
+    
+    
+    <tr>
+      <td>Date</td>
+      
+      <td>01/30</td>
+      
+      <td>01/31</td>
+      
+      <td>02/01</td>
+      
+      <td>02/02</td>
+      
+      <td>02/03</td>
+      
+    </tr>
+    
+    <tr>
+      <td width="10%">Class Materials</tD>
+      
+      <td>XML Data Format</td>
+      
+      <td></td>
+      
+      <td>HTML and Web Scraping</td>
+      
+      <td></td>
+      
+      <td><ul style='padding-left:0;'><li>Textual Data: Bag of Words and N-Grams</li><li>Lab 3 Assigned</li></ul></td>
+      
+    </tr>
+        
+    <tr>
+      <td></td>
+      
+      <td></td>
+      
+      <td></td>
+      
+      <td></td>
+      
+      <td></td>
+      
+      <td></td>
+      
+    </tr>
+    
+    
+    
+    <tr>
+      <td>Date</td>
+      
+      <td>02/06</td>
+      
+      <td>02/07</td>
+      
+      <td>02/08</td>
+      
+      <td>02/09</td>
+      
+      <td>02/10</td>
+      
+    </tr>
+    
+    <tr>
+      <td width="10%">Class Materials</tD>
+      
+      <td>Textual Data: Vector Space Model and TF-IDF</td>
+      
+      <td></td>
+      
+      <td><ul style='padding-left:0;'><li>Introduction to Machine Learning</li><li>Regression Models</li></ul></td>
+      
+      <td></td>
+      
+      <td><ul style='padding-left:0;'><li>K-Nearest Neighbors</li><li>Lab 4 Assigned</li></ul></td>
+      
+    </tr>
+        
+    <tr>
+      <td></td>
+      
+      <td></td>
+      
+      <td></td>
+      
+      <td></td>
+      
+      <td></td>
+      
+      <td></td>
+      
+    </tr>
+    
+    
+    
+    <tr>
+      <td>Date</td>
+      
+      <td>02/13</td>
+      
+      <td>02/14</td>
+      
+      <td>02/15</td>
+      
+      <td>02/16</td>
+      
+      <td>02/17</td>
+      
+    </tr>
+    
+    <tr>
+      <td width="10%">Class Materials</tD>
+      
+      <td><ul style='padding-left:0;'><li>Training and Test Error</li><li>Estimating the Test Error and Cross Validation</li></ul></td>
+      
+      <td>Categorical Features</td>
+      
+      <td>Model Selection and Hyperparameter Tuning</td>
+      
+      <td></td>
+      
+      <td><ul style='padding-left:0;'><li>Ensemble Methods</li><li>Lab 5 Assigned</li></ul></td>
+      
+    </tr>
+        
+    <tr>
+      <td></td>
+      
+      <td></td>
+      
+      <td></td>
+      
+      <td></td>
+      
+      <td></td>
+      
+      <td></td>
+      
+    </tr>
+    
+    
+    
+    <tr>
+      <td>Date</td>
+      
+      <td>02/20</td>
+      
+      <td>02/21</td>
+      
+      <td>02/22</td>
+      
+      <td>02/23</td>
+      
+      <td>02/24</td>
+      
+    </tr>
+    
+    <tr>
+      <td width="10%">Class Materials</tD>
+      
+      <td class="danger">No Class - Presidents' Day</td>
+      
+      <td></td>
+      
+      <td>Classification Models</td>
+      
+      <td></td>
+      
+      <td><ul style='padding-left:0;'><li>Evaluating Classification Models</li><li>Lab 6 Assigned</li></ul></td>
+      
+    </tr>
+        
+    <tr>
+      <td></td>
+      
+      <td></td>
+      
+      <td></td>
+      
+      <td></td>
+      
+      <td></td>
+      
+      <td></td>
+      
+    </tr>
+    
+    
+    
+    <tr>
+      <td>Date</td>
+      
+      <td>02/27</td>
+      
+      <td>02/28</td>
+      
+      <td>03/01</td>
+      
+      <td>03/02</td>
+      
+      <td>03/03</td>
+      
+    </tr>
+    
+    <tr>
+      <td width="10%">Class Materials</tD>
+      
+      <td><ul style='padding-left:0;'><li>Unsupervised Learning</li><li>K-Means Clustering</li></ul></td>
+      
+      <td></td>
+      
+      <td>Hierarchical Clustering</td>
+      
+      <td></td>
+      
+      <td>Exam 2</td>
+      
+    </tr>
+        
+    <tr>
+      <td></td>
+      
+      <td></td>
+      
+      <td></td>
+      
+      <td></td>
+      
+      <td></td>
+      
+      <td></td>
+      
+    </tr>
+    
+    
+    
+    <tr>
+      <td>Date</td>
+      
+      <td>03/06</td>
+      
+      <td>03/07</td>
+      
+      <td>03/08</td>
+      
+      <td>03/09</td>
+      
+      <td>03/10</td>
+      
+    </tr>
+    
+    <tr>
+      <td width="10%">Class Materials</tD>
+      
+      <td>Concatenating and Merging Data</td>
+      
+      <td></td>
+      
+      <td>Types of Joins</td>
+      
+      <td></td>
+      
+      <td>Lab 7 Assigned</td>
+      
+    </tr>
+        
+    <tr>
+      <td></td>
+      
+      <td></td>
+      
+      <td></td>
+      
+      <td></td>
+      
+      <td></td>
+      
+      <td></td>
+      
+    </tr>
+    
+    
+    
+    <tr>
+      <td>Date</td>
+      
+      <td>03/13</td>
+      
+      <td>03/14</td>
+      
+      <td>03/15</td>
+      
+      <td>03/16</td>
+      
+      <td>03/17</td>
+      
+    </tr>
+    
+    <tr>
+      <td width="10%">Class Materials</tD>
+      
+      <td>Map Projections and Distance Metrics</td>
+      
+      <td></td>
+      
+      <td><ul style='padding-left:0;'><li>Dot Maps</li><li>Choropleths</li></ul></td>
+      
+      <td></td>
+      
+      <td>Optional Lab 8 (replaces lowest lab score)</td>
+      
+    </tr>
+        
+    <tr>
+      <td></td>
+      
+      <td></td>
+      
+      <td></td>
+      
+      <td></td>
+      
+      <td></td>
+      
+      <td></td>
+      
+    </tr>
+    
+    
+    
+  </tbody>
+</table>
+
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="footer">
+      <p style="text-align: center; color: #777;">Copyright &copy; 2023 Dennis Sun.</p>
+    </div>
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="./js/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="./js/bootstrap.min.js"></script>
+    <script type="text/javascript" async
+	    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+  
+  </body>
+</html>
